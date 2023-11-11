@@ -1,0 +1,47 @@
+.first
+{
+    background-color: antiquewhite;
+    /* display: inline; */
+    display:inline-block;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    text-decoration:  green wavy underline;
+    line-height: 10.7mm;
+
+}
+.second
+{
+    background-color:blueviolet;
+    display: inline;
+    text-transform: uppercase;
+    
+}
+
+.box {
+    display:inline-block;
+    width:50vw;
+    min-height:30vh;
+    background-color:antiquewhite;
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px  ;
+    margin-left: 10px;
+}
+
+.heading {
+    text-align:center;
+    font-family: 'Aladin', cursive;
+    font-size:1.7em;
+    text-decoration: underline;
+}
+.note {
+    padding:7px;
+    /* padding-bottom: 50px; */
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    font-weight: 600;
+    
+
+}
+
+

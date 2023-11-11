@@ -1,0 +1,72 @@
+.container
+{
+    width:50vw;
+    height : 500vh;
+    margin: auto;
+    background-color:aqua;
+    position:relative;
+    
+
+}
+/* *{
+    margin-top:0px;
+    margin-left: 0px;
+
+} */
+
+
+.header {
+    background-color:black;
+    width:100%;
+    height:20vh;
+    position:sticky;
+    top:0px;
+    z-index: 2;
+
+    
+}
+ul{
+    /* display: inline; */
+    /* z-index:2; */
+    /* color:white; */
+    padding-left: 1;
+    
+}
+li{
+    /* display:inline-block; */
+    /* padding:10px; */
+    list-style: circle;
+    color:white;
+    
+}
+/* li{
+    display: inline;
+    z-index:2;
+    color:white;
+    padding:10px;
+} */
+
+p{
+    border:5px solid red;
+    margin :0px;
+}
+.box{
+    width:20vw;
+    height:20vh;
+    background-color:greenyellow;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+
+    
+}
+.box1
+{
+    width:20vw;
+    height:20vh;
+    background-color:blue;
+    position:relative;
+    bottom:0px;
+    right:0px;
+
+}

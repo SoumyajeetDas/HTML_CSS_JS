@@ -1,0 +1,44 @@
+.but{
+    width: 200px;
+    height :100px;
+    margin : 20% 40%;
+    background-color: rgba(255, 0, 221, 0.863);
+    border:3px solid black;
+    border-radius:40px;
+    box-shadow: 5px 5px 5px 2px;
+    font-size: 20px;
+    transition-duration: 1s;
+
+}
+.but:hover
+{
+    width: 210px;
+    height :110px;
+    margin : 20% 40%;
+    background-color: rgba(88, 14, 79, 0.863);
+    /* border:3px solid black; */
+    border:none;
+    border-radius:40px;
+    box-shadow: 5px 5px 5px 2px;
+    font-size: 30px;
+    transform:rotate(-15deg);
+    
+
+}
+.box{
+    height:100px;
+    width:100px;
+    transform: skew(0deg,0deg);
+    background-color:red;
+    /* transition-property:width,height,transform;
+    transition-duration:10s;
+    transition-timing-function: ease-in; */
+
+    transition:width 10s , height 10s , transform 10s , ease -in;
+}
+.box:hover
+{
+    width:500px;
+    height : 200px;
+    transform:skew(10deg,10deg);
+}

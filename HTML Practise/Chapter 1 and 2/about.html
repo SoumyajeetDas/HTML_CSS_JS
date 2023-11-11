@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+
+    <h2>This is the about section</h2>
+    <p>Lorem ipsum dolor <b>sit amet consectetur,</b> adipisicing elit. <i>Voluptate rerum ipsum evenie</i>t ipsam eos voluptas animi, at <u>consequuntur</u> recusandae facere.</p>
+    
+
+    <img src="7m3days0012.jpg" alt="Loading" border ="5">
+    <br>
+
+    <big>This is big</big>
+    <br>
+    <small>This small</small>
+
+    <br>
+    <hr>
+
+    <p>CO<sub>2</sub></p>
+    <br>
+    <p>a<sup>2</sup></p>
+    <br>
+    <hr>
+    <pre>
+        def weatherreport():
+    '''
+    Determing the current weather condition
+    '''
+    r=requests.get("https://api.openweathermap.org/data/2.5/weather?q=Chandannagar&appid=58aced8999bab58e22c7ec3338d791d8") #requests.get() is used to request data from website with a url and retrieve it .
+                                                                                                                # r contains the info that is being requested
+    # data=json.loads(r.content)     .content provides the raw bytes of the response payload
+    data=json.loads(r.text) 
+    </pre>
+
+
+    
+</body>
+</html>

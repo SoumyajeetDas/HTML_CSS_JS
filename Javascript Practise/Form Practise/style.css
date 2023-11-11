@@ -1,0 +1,10 @@
+table
+{
+    background-color:antiquewhite;
+}
+#result
+{
+    border: 1px solid black;
+    width:50%;
+    height:200px;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader&family=Poppins:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d48e31792d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav> <!-- Display flex with space between  -->
+            <a href="index.html"> <!-- This is one flex content -->
+                <img src="logo.png" alt="Loading">
+
+            </a>
+
+            <div class="nav-links" id="navlinks"> <!--This is another flex content -->
+             
+                <img src="x-mark.png" alt="Loading" class="cross" onClick="hideMenu()">
+                <ul>
+                    <li>Home</li> <!--li is inline for laptop screen and for mobile screen it is block -->
+                    <li>About</li>
+                    <li>Course</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+           
+            <img src="menu.png" alt="Loading" class ="menu" onclick="showMenu()"> <!-- Showing Menu in mobile-->
+        </nav>
+
+        <div class="main-text">
+
+            <h1>World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, similique suscipit. <br>Fuga facere
+                dolorum vel magnam repudiandae beatae eum voluptas!</p>
+            <a href="" class="main-but">Visit Us to Know More</a> <!-- This is not the right way of making button use <button type="Button> to make button"-->
+        </div>
+
+
+
+    </header>
+    <main>
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur officiis eligendi optio tempora eius
+                saepe, reiciendis dolore harum quia iure?</p>
+
+        </section>
+        <div class="crow"><!-- Flex-->
+            <div class="course-col">
+                <h1>Intermediate</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic commodi quisquam saepe necessitatibus
+                    odit ullam officiis, aspernatur ad autem earum repellat, molestias sit ducimus labore neque vitae
+                    dolorum consequuntur accusamus!</p>
+            </div>
+            <div class="course-col">
+                <h1>Degree</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic commodi quisquam saepe necessitatibus
+                    odit ullam officiis, aspernatur ad autem earum repellat, molestias sit ducimus labore neque vitae
+                    dolorum consequuntur accusamus!</p>
+            </div>
+            <div class="course-col">
+                <h1>Post Graduate</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic commodi quisquam saepe necessitatibus
+                    odit ullam officiis, aspernatur ad autem earum repellat, molestias sit ducimus labore neque vitae
+                    dolorum consequuntur accusamus!</p>
+            </div>
+
+        </div>
+
+        <section class="course">
+            <h1>Our global campus</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur officiis eligendi optio tempora eius
+                saepe, reiciendis dolore harum quia iure?</p>
+
+        </section>
+        
+        <div class="irow">
+            <div class="campus-col">
+                <img src="london.png" alt="Loading">
+                <div class="details">
+                    <h3>London</h3>
+                </div>
+                
+            </div>
+            <div class="campus-col">
+                <img src="washington.png" alt="Loading">
+                <div class="details">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="newyork.png" alt="Loading">
+                <div class="details">
+                    <h3>New York</h3>
+                </div>
+            </div>
+        </div>
+
+        <section class="course">
+            <h1>Our faccilities</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur officiis eligendi optio tempora eius
+                saepe, reiciendis dolore harum quia iure?</p>
+
+        </section>
+
+        <div class="frow"> <!--Flex-->
+            <div class="facc-col">
+                <img src="basketball.png" alt="Loading">
+                <h3>Basketball</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, excepturi.
+
+            </div>
+            <div class="facc-col">
+                <img src="library.png" alt="Loading">
+                
+                <h3>Library</h3>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, non?
+            </div>
+            <div class="facc-col">
+                <img src="cafeteria.png" alt="Loading">
+                <h3>Cafeteria</h3>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quos?
+            </div>
+            
+        </div>
+
+        <div class="contact-row">
+
+            <div class="contact">
+                <h1>Enroll in our online Courses from Anywhere in the world</h1>
+                <a href="">Contact Us</a> <!-- This is not the right way of making button use <button type="Button> to make button"-->
+            </div>
+            
+
+        </div>
+        <!-- <div class="contact">
+            <h1>Enroll in our online Courses from Anywhere in the world</h1>
+            <a href="">Contact Us</a>
+        </div> -->
+
+        <footer class = "footer"> 
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum enim itaque nisi<br> inventore, quam illum asperiores necessitatibus et praesentium velit!</p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </footer>
+
+
+
+
+
+    </main>
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

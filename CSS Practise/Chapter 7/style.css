@@ -1,0 +1,18 @@
+.container {
+    background-color: yellow;
+    display:grid;
+    /* height:150vh; */
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: 200px 300px; */
+    grid-gap:10px 10px;
+    /* justify-content: center; */
+    /* align-items: center;*/
+    /* align-content: center; */
+   
+} 
+.item{
+    border:2px solid black;
+    border-radius:10px;
+    background-color:white;
+    
+}

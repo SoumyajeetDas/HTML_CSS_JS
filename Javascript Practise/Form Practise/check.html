@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Check</h1>
+    <form onsubmit="return calculate()" action="https://www.w3schools.com/js/js_validation.asp">
+        <table>
+            <tr>
+                <td>Emp Name:</td>
+                <td><input type="text" id = "empname" name="empname" pattern="[a-zA-Z]{3}" required> </td>
+            </tr>
+            <tr>
+                <td>Emp No.</td>
+                <td><input type="number" max="10" id="empno" name ="empno"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id ="male" name ="gender" value="male">Male
+                
+               
+                    <input type="radio" id ="female" name ="gender" value="female">Female
+                
+                    <input type="radio" id ="other" name ="gender" value="other">Other
+                </td>
+            </tr>
+            <tr>
+                <td>Interest</td>
+                <td><input type="checkbox" name="interest" id="interest" value="Painting">Painting
+                    <input type="checkbox" name="interest" id="interest" value="Drawing">Drawing
+                    <input type="checkbox" name="interest" id="interest" value="Sex">Sex
+                </td>
+            </tr>
+            <tr>
+                <td>Cars</td>
+                <td><select name="cars" id="cars">
+                    <option value="No car">Select..</option>
+                    <option value="Omni">Omni</option>
+                    <option value="Swift">Swift</option>
+
+                </select></td>
+            </tr>
+            <tr>
+                <td>Comments</td>
+                <td><textarea name="comments" id="comments" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date" id="DOB" name ="DOB"></td>
+            </tr>
+            <tr>
+                <td>Month</td>
+                <td><input type="month" id ="month" name="month"></td>
+            </tr>
+            <tr>
+                <td>Week</td>
+                <td><input type="week" id ="week" name="week"></td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td><input type="time" id ="time"></td>
+            </tr>
+            <tr>
+                <td>Basic Salary</td>
+                <td><input type="number" name="bsal" id="bsal"></td>
+            </tr>
+            <tr>
+                <td>Gross Salary</td>
+                <td><input type="number" name="gsal" id="gsal"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" id ="submit" value="submit"></td>
+
+            </tr>
+            
+        </table>
+        
+    </form>
+
+    <div id="result"></div>
+    <!-- <script>
+        function calculate() {
+            console.log(2+3);
+            return false;
+        }
+    </script> -->
+    <script src="index.js"></script>
+   
+
+    
+</body>
+</html>

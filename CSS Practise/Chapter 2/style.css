@@ -1,0 +1,52 @@
+/* *
+{
+    margin: 50;
+    padding: 20;
+} */
+
+.red{
+    color: #369999;
+    background-color: bisque;
+    padding-left: 600px;
+    padding-top:50px;
+    height: 100px;
+
+
+}
+.font{
+    padding-left:100px
+
+}
+.inside{
+    background-image :url('image.png');
+    background-attachment:scroll;
+    padding : 20px;
+    width:500px;
+    border-top-left-radius: 30px;
+
+}
+
+.background
+{
+    background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.imageback
+{
+    background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    height : 800px;
+    background-size: 233px 233px;
+    background-position: right;
+
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
